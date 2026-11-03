@@ -1,0 +1,12 @@
+# 展示仓库只放公开内容，以下一律排除，防止误传敏感信息
+.env
+.env.*
+*.log
+.DS_Store
+node_modules/
+dist/
+server/
+src/
+**/*.map
+*.pem
+*.key
